@@ -1,6 +1,8 @@
 {
   "google_auth": false,
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "disabled_mcps": [
+  ],
   "agents": {
     "Sisyphus": {
       "model": "github-copilot/claude-sonnet-4.5"
@@ -11,16 +13,17 @@
     "oracle": {
       "model": "github-copilot/gpt-5.2"
     },
+    "explore": {
+      "model": "opencode/grok-code"
+    },
     "frontend-ui-ux-engineer": {
-      "model": "google/gemini-2.5-pro"
+      "model": "google/antigravity-gemini-3-pro-high"
     },
     "document-writer": {
-      "model": "google/gemini-2.5-flash"
+      "model": "google/antigravity-gemini-3-flash"
     },
     "multimodal-looker": {
-      "model": "google/gemini-2.5-flash"
-    },
-    "explore": { "model": "opencode/grok-code" }
-  },
-  "disabled_mcps": ["context7"]
+      "model": "google/antigravity-gemini-3-flash"
+    }
+  }
 }
