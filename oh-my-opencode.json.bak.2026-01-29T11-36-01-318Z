@@ -5,19 +5,19 @@
     "context7"
   ],
   "agents": {
-    "sisyphus": {
+    "Sisyphus": {
       "model": "openai/gpt-5.2"
     },
-    "prometheus": {
+    "Prometheus": {
       "model": "deepseek/deepseek-chat"
     },
-    "metis": {
+    "Metis": {
       "model": "deepseek/deepseek-chat"
     },
-    "momus": {
+    "Momus": {
       "model": "deepseek/deepseek-chat"
     },
-    "atlas": {
+    "Atlas": {
       "model": "deepseek/deepseek-chat"
     },
     "librarian": {
