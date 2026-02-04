@@ -6,7 +6,16 @@
   ],
   "agents": {
     "sisyphus": {
-      "model": "openai/gpt-5.2"
+      "model": "xai/grok-code-fast-1"
+    },
+    "atlas": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "oracle": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "explore": {
+      "model": "xai/grok-code-fast-1"
     },
     "prometheus": {
       "model": "deepseek/deepseek-chat"
@@ -17,17 +26,8 @@
     "momus": {
       "model": "deepseek/deepseek-chat"
     },
-    "atlas": {
-      "model": "deepseek/deepseek-chat"
-    },
     "librarian": {
-      "model": "opencode/big-pickle"
-    },
-    "oracle": {
-      "model": "openai/gpt-5.2"
-    },
-    "explore": {
-      "model": "opencode/grok-code"
+      "model": "google/gemini-2.5-flash"
     },
     "frontend-ui-ux-engineer": {
       "model": "google/gemini-2.5-flash"
@@ -41,26 +41,25 @@
   },
   "categories": {
     "visual-engineering": {
-      "model": "google/gemini-2.5-pro"
+      "model": "google/gemini-2.5-flash"
     },
     "ultrabrain": {
-      "model": "openai/gpt-5.2-codex"
+      "model": "xai/grok-code-fast-1"
     },
     "artistry": {
-      "model": "google/gemini-2.5-pro"
+      "model": "google/gemini-2.5-flash"
     },
     "quick": {
-      "model": "opencode/gpt-5-nano"
+      "model": "xai/grok-code-fast-1"
     },
     "unspecified-low": {
-      "model": "deepseek/deepseek-chat"
+      "model": "xai/grok-code-fast-1"
     },
     "unspecified-high": {
-      "model": "openai/gpt-5.2-codex",
-      "variant": "max"
+      "model": "xai/grok-code-fast-1"
     },
     "writing": {
-      "model": "google/gemini-3-flash-preview"
+      "model": "google/gemini-2.5-flash"
     }
   }
 }
