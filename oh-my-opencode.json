@@ -2,17 +2,16 @@
   "google_auth": false,
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
   "disabled_mcps": [
-    "context7"
   ],
   "agents": {
     "sisyphus": {
-      "model": "xai/grok-code-fast-1"
+      "model": "xai/grok-4-1-fast-reasoning"
     },
     "atlas": {
       "model": "xai/grok-code-fast-1"
     },
     "oracle": {
-      "model": "xai/grok-code-fast-1"
+      "model": "xai/grok-4-1-fast-reasoning"
     },
     "explore": {
       "model": "xai/grok-code-fast-1"
@@ -50,7 +49,7 @@
       "model": "google/gemini-2.5-flash"
     },
     "quick": {
-      "model": "xai/grok-code-fast-1"
+      "model": "xai/grok-4-1-fast"
     },
     "unspecified-low": {
       "model": "xai/grok-code-fast-1"

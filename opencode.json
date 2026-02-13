@@ -2,8 +2,7 @@
   "plugin": [
     "oh-my-opencode",
     "opencode-antigravity-auth@1.2.8",
-    "opencode-openai-codex-auth",
-    "@tarquinen/opencode-dcp@latest"
+    "opencode-openai-codex-auth"
   ],
   "permission": {
     "skill": {
