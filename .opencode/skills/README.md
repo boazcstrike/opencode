@@ -45,10 +45,15 @@ The following 3 skills have been ported from the AWS Skills repository:
 - [aws-cdk-development](aws-cdk-development/) - Source: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-cdk-development/SKILL.md
 
 ### Standalone Tools
-The following 2 skills have been ported from standalone external tools:
+The following 7 skills have been ported from standalone external tools:
 
 - [sheets-cli](sheets-cli/) - Source: https://github.com/gmickel/sheets-cli
 - [agent-browser](agent-browser/) - Source: https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser
+- [react-best-practices](react-best-practices/) - Source: https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices
+- [web-design-guidelines](web-design-guidelines/) - Source: https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines
+- [extracting-pdf-text](extracting-pdf-text/) - Source: https://github.com/letta-ai/skills/tree/main/tools/extracting-pdf-text
+- [google-workspace](google-workspace/) - Source: https://github.com/letta-ai/skills/tree/main/tools/google-workspace
+- [slack](slack/) - Source: https://github.com/letta-ai/skills/tree/main/tools/slack
 
 ## Skill Format
 
@@ -73,4 +78,4 @@ To update this README when new skills are added:
 
 Trigger: When porting new skills from external repositories, update this README to include the new entries with their source links.
 
-## Total Skills: 30
+## Total Skills: 35

@@ -5,13 +5,13 @@
   ],
   "agents": {
     "sisyphus": {
-      "model": "xai/grok-4-1-fast-reasoning"
+      "model": "xai/grok-4-1-fast"
     },
     "atlas": {
       "model": "xai/grok-code-fast-1"
     },
     "oracle": {
-      "model": "xai/grok-4-1-fast-reasoning"
+      "model": "xai/grok-4-1-fast"
     },
     "explore": {
       "model": "xai/grok-code-fast-1"
