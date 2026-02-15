@@ -122,3 +122,4 @@ logs
 # Add project-specific ignores here
 
 antigravity-accounts.json
+oauth-client.json
