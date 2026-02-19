@@ -35,25 +35,18 @@ When enabled (default), Sisyphus provides a powerful orchestrator with optional 
 
 ### The Roles: Who Does What?
 
-| Role        | Alias            | Function                                                                 | Recommended Model (2026)              |
-|-------------|------------------|--------------------------------------------------------------------------|--------------------------------------|
-| Orchestrator | \"The Boss\"     | The main primary agent. It doesn't usually write code; it plans, delegates, and coordinates the other sub-agents. | Grok-4-1-fast / GPT-5.2             |
-| Oracle      | \"The Strategist\" | High-IQ advisor used for complex debugging or architectural decisions. It is the \"reasoning engine\" called when the team gets stuck. | DeepSeek R1 / GPT-5.2               |
-| Designer    | \"The Visualist\"  | Focused on Frontend/UI/UX. It has access to browser-automation tools to verify visual states. | Gemini 3 Flash                      |
-| Explorer    | \"The Scout\"     | Scans your local codebase. It maps out directory structures and finds relevant files using Grep/LSP to keep the Orchestrator's context lean. | Grok-Fast-Non-Reasoning             |
-| Librarian   | \"The Researcher\" | Searches external documentation and GitHub (via grep_app). It finds how to use specific libraries so the team doesn't \"hallucinate\" APIs. | DeepSeek V3.2 / Gemini 3 Flash      |
-| Fixer       | \"The Janitor\"   | Dedicated to refactoring and error correction. It uses LSP diagnostics to surgically fix linting or type errors. | DeepSeek R1 / Grok-Code-Fast        |
+| Role        | Alias            | Function                                                                 |
+|-------------|------------------|--------------------------------------------------------------------------|
+| Orchestrator | \"The Boss\"     | The main primary agent. It doesn't usually write code; it plans, delegates, and coordinates the other sub-agents. |
+| Oracle      | \"The Strategist\" | High-IQ advisor used for complex debugging or architectural decisions. It is the \"reasoning engine\" called when the team gets stuck. |
+| Designer    | \"The Visualist\"  | Focused on Frontend/UI/UX. It has access to browser-automation tools to verify visual states. |
+| Explorer    | \"The Scout\"     | Scans your local codebase. It maps out directory structures and finds relevant files using Grep/LSP to keep the Orchestrator's context lean. |
+| Librarian   | \"The Researcher\" | Searches external documentation and GitHub (via grep_app). It finds how to use specific libraries so the team doesn't \"hallucinate\" APIs. |
+| Fixer       | \"The Janitor\"   | Dedicated to refactoring and error correction. It uses LSP diagnostics to surgically fix linting or type errors. |
 
-### Current Setup (\"dynamic\" preset)
+### Model Matching
 
-- **Orchestrator**: `xai/grok-4-1-fast` (all skills, websearch MCP)
-- **Oracle**: `xai/grok-4-1-fast` (high variant)
-- **Designer**: `google/gemini-3-flash` (medium variant, agent-browser skill)
-- **Explorer**: `xai/grok-4-1-fast-non-reasoning` (low variant)
-- **Librarian**: `xai/grok-4-1-fast` (low variant, websearch/context7/grep_app MCPs)
-- **Fixer**: `xai/grok-code-fast-1` (low variant)
-
-**Fallback Chains**: Enabled with 15s timeout for reliability across models/providers.
+Refer to the model matching in both the standard (`oh-my-opencode.json`) and slim (`oh-my-opencode-slim.json`) config files.
 
 ## Source Repositories
 
