@@ -12,7 +12,7 @@
         ]
       },
       "oracle": {
-        "model": "xai/grok-4-1-fast",
+        "model": "deepseek/deepseek-reasoner",
         "variant": "high",
         "skills": [],
         "mcps": []
@@ -26,13 +26,13 @@
         "mcps": []
       },
       "explorer": {
-        "model": "xai/grok-code-fast-1",
+        "model": "xai/grok-4-1-fast-non-reasoning",
         "variant": "low",
         "skills": [],
         "mcps": []
       },
       "librarian": {
-        "model": "xai/grok-code-fast-1",
+        "model": "xai/grok-4-1-fast",
         "variant": "low",
         "skills": [],
         "mcps": [
@@ -56,12 +56,14 @@
       "orchestrator": [
         "openai/gpt-5.1-codex-mini",
         "github-copilot/gpt-5.2-codex",
-        "opencode/big-pickle"
+        "opencode/big-pickle",
+        "deepseek/deepseek-reasoner"
       ],
       "oracle": [
         "openai/gpt-5.1-codex-mini",
         "github-copilot/gpt-5.2-codex",
-        "opencode/big-pickle"
+        "opencode/big-pickle",
+        "deepseek/deepseek-reasoner"
       ],
       "designer": [
         "openai/gpt-5.1-codex-mini",
@@ -76,12 +78,14 @@
       "librarian": [
         "openai/gpt-4.1-mini",
         "github-copilot/gpt-5.2-codex",
-        "opencode/big-pickle"
+        "opencode/big-pickle",
+        "deepseek/deepseek-reasoner"
       ],
       "fixer": [
         "openai/gpt-5.1-codex-mini",
         "github-copilot/gpt-5.1-codex-mini",
-        "opencode/big-pickle"
+        "opencode/big-pickle",
+        "deepseek/deepseek-reasoner"
       ]
     }
   }
