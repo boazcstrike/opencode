@@ -3,7 +3,7 @@
   "presets": {
     "dynamic": {
       "orchestrator": {
-        "model": "xai/grok-4-1-fast",
+        "model": "xai/grok-code-fast-1",
         "skills": [
           "*"
         ],
