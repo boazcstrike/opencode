@@ -123,3 +123,7 @@ logs
 
 antigravity-accounts.json
 oauth-client.json
+.gitignore
+antigravity-accounts.json.*.tmp
+antigravity-signature-cache.json
+antigravity-logs/
