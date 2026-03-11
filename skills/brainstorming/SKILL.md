@@ -1,8 +1,6 @@
 ---
 name: brainstorming
 description: "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
-compatibility: opencode
-metadata: {audience: developers, workflow: ideation, source: superpowers-repo}
 ---
 
 # Brainstorming Ideas Into Designs
@@ -96,27 +94,3 @@ digraph brainstorming {
 - **Explore alternatives** - Always propose 2-3 approaches before settling
 - **Incremental validation** - Present design, get approval before moving on
 - **Be flexible** - Go back and clarify when something doesn't make sense
-
-[Agent Usage Reminder]
-
-You called a search/fetch tool directly without leveraging specialized agents.
-
-RECOMMENDED: Use task with explore/librarian agents for better results:
-
-```
-// Parallel exploration - fire multiple agents simultaneously
-task(agent="explore", prompt="Find all files matching pattern X")
-task(agent="explore", prompt="Search for implementation of Y")
-task(agent="librarian", prompt="Lookup documentation for Z")
-
-// Then continue your work while they run in background
-// System will notify you when each completes
-```
-
-WHY:
-- Agents can perform deeper, more thorough searches
-- Background tasks run in parallel, saving time
-- Specialized agents have domain expertise
-- Reduces context window usage in main session
-
-ALWAYS prefer: Multiple parallel task calls > Direct tool calls

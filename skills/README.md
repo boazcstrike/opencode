@@ -5,7 +5,6 @@ This directory contains skills ported to OpenCode-compatible format from various
 ## Ported Skills
 
 ### Anthropic Skills (https://github.com/anthropics/skills/tree/main/skills)
-The following 16 skills have been ported from the Anthropic Skills repository:
 
 - [algorithmic-art](algorithmic-art/) - Source: https://github.com/anthropics/skills/blob/main/skills/algorithmic-art/SKILL.md
 - [brand-guidelines](brand-guidelines/) - Source: https://github.com/anthropics/skills/blob/main/skills/brand-guidelines/SKILL.md
@@ -25,27 +24,19 @@ The following 16 skills have been ported from the Anthropic Skills repository:
 - [xlsx](xlsx/) - Source: https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md
 
 ### Superpowers Skills (https://github.com/obra/superpowers/tree/main/skills)
-The following 9 skills have been ported from the Superpowers Skills repository:
 
 - [brainstorming](brainstorming/) - Source: https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md
-- [dispatching](dispatching/) - Source: https://github.com/obra/superpowers/blob/main/skills/dispatching/SKILL.md
-- [executing](executing/) - Source: https://github.com/obra/superpowers/blob/main/skills/executing/SKILL.md
-- [subagent](subagent/) - Source: https://github.com/obra/superpowers/blob/main/skills/subagent/SKILL.md
+- [executing-plans](executing-plans/) - Source: https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md
 - [systematic-debugging](systematic-debugging/) - Source: https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md
-- [test-driven-development](test-driven-development/) - Source: https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md
-- [using-superpowers](using-superpowers/) - Source: https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md
 - [writing-plans](writing-plans/) - Source: https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md
 - [writing-skills](writing-skills/) - Source: https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md
 
 ### AWS Skills (https://github.com/zxkane/aws-skills/tree/main/plugins)
-The following 3 skills have been ported from the AWS Skills repository:
 
-- [aws-agentic-ai](aws-agentic-ai/) - Source: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-agentic-ai/SKILL.md
 - [aws-cost-operations](aws-cost-operations/) - Source: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-cost-operations/SKILL.md
 - [aws-cdk-development](aws-cdk-development/) - Source: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-cdk-development/SKILL.md
 
 ### Standalone Tools
-The following 7 skills have been ported from standalone external tools:
 
 - [sheets-cli](sheets-cli/) - Source: https://github.com/gmickel/sheets-cli
 - [agent-browser](agent-browser/) - Source: https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser
@@ -54,6 +45,32 @@ The following 7 skills have been ported from standalone external tools:
 - [extracting-pdf-text](extracting-pdf-text/) - Source: https://github.com/letta-ai/skills/tree/main/tools/extracting-pdf-text
 - [google-workspace](google-workspace/) - Source: https://github.com/letta-ai/skills/tree/main/tools/google-workspace
 - [slack](slack/) - Source: https://github.com/letta-ai/skills/tree/main/tools/slack
+
+### Context Engineering Skills (https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills)
+
+- [advanced-evaluation](advanced-evaluation/) - Source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/advanced-evaluation/SKILL.md
+- [context-compression](context-compression/) - Source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-compression/SKILL.md
+- [context-degradation](context-degradation/) - Source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-degradation/SKILL.md
+- [context-fundamentals](context-fundamentals/) - Source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-fundamentals/SKILL.md
+- [context-optimization](context-optimization/) - Source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-optimization/SKILL.md
+- [evaluation](evaluation/) - Source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/evaluation/SKILL.md
+- [filesystem-context](filesystem-context/) - Source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/filesystem-context/SKILL.md
+- [memory-systems](memory-systems/) - Source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/memory-systems/SKILL.md
+- [multi-agent-patterns](multi-agent-patterns/) - Source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/multi-agent-patterns/SKILL.md
+- [project-development](project-development/) - Source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/project-development/SKILL.md
+- [tool-design](tool-design/) - Source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/tool-design/SKILL.md
+
+### Additional Skills
+
+- [cartography](cartography/)
+- [dart-best-practices](dart-best-practices/)
+- [dart-checks-migration](dart-checks-migration/)
+- [dart-cli-app-best-practices](dart-cli-app-best-practices/)
+- [dart-doc-validation](dart-doc-validation/)
+- [dart-matcher-best-practices](dart-matcher-best-practices/)
+- [dart-modern-features](dart-modern-features/)
+- [dart-package-maintenance](dart-package-maintenance/)
+- [dart-test-fundamentals](dart-test-fundamentals/)
 
 ## Skill Format
 
@@ -78,4 +95,4 @@ To update this README when new skills are added:
 
 Trigger: When porting new skills from external repositories, update this README to include the new entries with their source links.
 
-## Total Skills: 35
+## Total Skills: 49
