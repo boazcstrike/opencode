@@ -1,7 +1,6 @@
 {
   "plugin": [
-    "oh-my-opencode",
-    "opencode-antigravity-auth@1.2.8",
+    "opencode-gemini-auth@latest",
     "opencode-openai-codex-auth",
     "oh-my-opencode-slim"
   ],
@@ -207,10 +206,12 @@
     }
   },
   "$schema": "https://opencode.ai/config.json",
-  "tui": {
-    "scroll_speed": 3,
-    "scroll_acceleration": {
-      "enabled": true
+  "agent": {
+    "explore": {
+      "disable": true
+    },
+    "general": {
+      "disable": true
     }
   }
 }

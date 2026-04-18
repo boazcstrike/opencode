@@ -72,6 +72,51 @@ This directory contains skills ported to OpenCode-compatible format from various
 - [dart-package-maintenance](dart-package-maintenance/)
 - [dart-test-fundamentals](dart-test-fundamentals/)
 
+### Google Workspace CLI Skills (https://github.com/googleworkspace/cli/tree/main/skills)
+
+- [gws-admin-reports](gws-admin-reports/)
+- [gws-calendar](gws-calendar/)
+- [gws-calendar-agenda](gws-calendar-agenda/)
+- [gws-calendar-insert](gws-calendar-insert/)
+- [gws-chat](gws-chat/)
+- [gws-chat-send](gws-chat-send/)
+- [gws-classroom](gws-classroom/)
+- [gws-docs](gws-docs/)
+- [gws-docs-write](gws-docs-write/)
+- [gws-drive](gws-drive/)
+- [gws-drive-upload](gws-drive-upload/)
+- [gws-events](gws-events/)
+- [gws-events-renew](gws-events-renew/)
+- [gws-events-subscribe](gws-events-subscribe/)
+- [gws-forms](gws-forms/)
+- [gws-gmail](gws-gmail/)
+- [gws-gmail-forward](gws-gmail-forward/)
+- [gws-gmail-read](gws-gmail-read/)
+- [gws-gmail-reply](gws-gmail-reply/)
+- [gws-gmail-reply-all](gws-gmail-reply-all/)
+- [gws-gmail-send](gws-gmail-send/)
+- [gws-gmail-triage](gws-gmail-triage/)
+- [gws-gmail-watch](gws-gmail-watch/)
+- [gws-keep](gws-keep/)
+- [gws-meet](gws-meet/)
+- [gws-modelarmor](gws-modelarmor/)
+- [gws-modelarmor-create-template](gws-modelarmor-create-template/)
+- [gws-modelarmor-sanitize-prompt](gws-modelarmor-sanitize-prompt/)
+- [gws-modelarmor-sanitize-response](gws-modelarmor-sanitize-response/)
+- [gws-people](gws-people/)
+- [gws-shared](gws-shared/)
+- [gws-sheets](gws-sheets/)
+- [gws-sheets-append](gws-sheets-append/)
+- [gws-sheets-read](gws-sheets-read/)
+- [gws-slides](gws-slides/)
+- [gws-tasks](gws-tasks/)
+- [gws-workflow](gws-workflow/)
+- [gws-workflow-email-to-task](gws-workflow-email-to-task/)
+- [gws-workflow-file-announce](gws-workflow-file-announce/)
+- [gws-workflow-meeting-prep](gws-workflow-meeting-prep/)
+- [gws-workflow-standup-report](gws-workflow-standup-report/)
+- [gws-workflow-weekly-digest](gws-workflow-weekly-digest/)
+
 ## Skill Format
 
 Each skill directory contains:
@@ -95,4 +140,4 @@ To update this README when new skills are added:
 
 Trigger: When porting new skills from external repositories, update this README to include the new entries with their source links.
 
-## Total Skills: 49
+## Total Skills: 91
